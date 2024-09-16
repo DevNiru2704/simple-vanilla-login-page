@@ -4,7 +4,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:5000', // Your backend server address
+        target: 'https://simple-vanilla-login-page-backend.onrender.com', // Your backend server address
         changeOrigin: true,
         secure: false,
       }
