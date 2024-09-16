@@ -7,7 +7,7 @@ const app = express();
 
 // CORS configuration
 app.use(cors({
-    origin: 'http://localhost:5173', // Your frontend URL
+    origin: 'https://simple-vanilla-login-page-frontend.onrender.com', // Your frontend URL
     credentials: true
 }));
 
